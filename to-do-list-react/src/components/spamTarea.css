@@ -1,0 +1,57 @@
+
+
+.Spam-tarea {
+    background-color: #bae6fd;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #3b82f6;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+.tarea {
+  background-color: #bae6fd;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #3b82f6;
+}
+
+.tarea.completed {
+  background-color: #fde68a;
+  justify-content: center;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+.btn-edit {
+  background-color: #86efac;
+  border: 2px solid #22c55e;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.btn-delete {
+  background-color: #fca5a5;
+  border: 2px solid #ef4444;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+

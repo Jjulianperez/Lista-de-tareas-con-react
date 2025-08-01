@@ -1,12 +1,13 @@
+import './SpamTarea.css';
 export const SpamTarea = ({tarea, onEditar, onEliminar}) =>{
     return(
-        <section>
-            <header>
+        <section className='Spam-tarea'>
+            <header className='tarea-header'>
                 <span>{tarea}</span>
             </header>
-        <div>
-            <button onClick={onEditar}>Editar Tarea</button>
-            <button onClick={onEliminar}>Eliminar Tarea</button>
+        <div className='tarea-botones'>
+            <button className='btn-edit' onClick={onEditar}>Editar Tarea</button>
+            <button className='btn-delete' onClick={onEliminar}>Eliminar Tarea</button>
         </div>
        </section>
     )
